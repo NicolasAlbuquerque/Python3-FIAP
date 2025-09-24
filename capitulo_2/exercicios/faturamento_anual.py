@@ -1,6 +1,6 @@
 
 faturamento_anual = float(input('Digite o valo do seu faturamento Anual: R$ '))
-assinatura = input("Digite o tipo de assinatura: 1 - Basic, 2 - Silver, 3 - Gold, 4 - Platinum")
+assinatura = input("Digite o tipo de assinatura:\n 1 - Basic\n 2 - Silver\n 3 - Gold\n 4 - Platinum")
 
 if assinatura == '1':
     sobre_faturamento = faturamento_anual * 0.30
