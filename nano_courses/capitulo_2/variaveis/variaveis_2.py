@@ -1,0 +1,5 @@
+responsavel=input('Informe o nome do responsável: ')
+funcionario= input('Informe o nome do funcionário: ')
+evento = input('Informe o valor deo evento: ')
+valor_gasto= float(input("Informe o valor gasto em reais: R$ "))
+print('Declaro para o senhor ',responsavel + ' que o senhor '+ funcionario + ', esteve presente no evento' + evento + ' e gastou o valor de R$' + str(valor_gasto) + ' com a entrada')
